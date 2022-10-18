@@ -16,7 +16,7 @@
   }
 }
 
-@for $i from 0 to 5 {
+@for $i from 0 to 6 {
   .box-0#{$i + 1} {
     width: 5px * $i + 150px;
     height: 5px * $i + 150px;
@@ -25,7 +25,7 @@
 
 @for $i from 1 through 5 {
   .box-#{$i}0 {
-    @if $i % 2 !=0 {
+    @if $i % 2 != 0 {
       background-color: gray;
     }
   }
