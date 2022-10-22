@@ -1,0 +1,24 @@
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8px;
+}
+
+@keyframes blink {
+  to {
+    color: black;
+  }
+
+  from {
+    color: white;
+  }
+}
+
+.loader {
+  text-transform: uppercase;
+  font-family: sans-serif;
+  animation: blink 1s infinite linear;
+}
