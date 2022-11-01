@@ -76,6 +76,43 @@ body {
   align-items: flex-start;
 }
 
-.flex-container :nth-child(2) {
+.flex-container-03 :nth-child(2) {
   flex-grow: 2;
+}
+
+.flex-container-03 :nth-child(4) {
+  flex-grow: 1;
+}
+
+.flex-container-04 {
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.flex-container-04 :nth-child(2) {
+  flex-grow: 1;
+}
+
+.flex-container-05 {
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-container-05 :nth-child(3) {
+  flex-grow: 2;
+}
+
+.flex-container-05 :nth-child(4) {
+  flex-grow: 1;
+}
+
+.flex-container-06 {
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.flex-container-06 :last-child {
+  flex-grow: 1;
 }
