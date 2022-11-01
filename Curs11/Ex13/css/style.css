@@ -27,8 +27,8 @@
   display: grid;
   grid-template-areas:
   "header header header header"
-  "sidebar .content content"
-  "sidebar .content content"
+  "sidebar . content content"
+  "sidebar . content content"
   "footer footer footer footer" ;
   max-width: 1920px;
   width: 100%;
